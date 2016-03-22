@@ -6,8 +6,8 @@ To install this great repo and use it for regular and day to day goodness just r
 `git clone https://github.com/srepollock/git-good ~/.gitgood`  
 `git config --global alias.good '!sh ~/.gitgood/gitgood.sh`  
 And inside your .bashrc (or other shell .\*rc files) add:  
-`# Git Good Update export
-export PATH="$HOME/.gitgood/update:$PATH"`
+`# Git Good Update export`
+`export PATH="$HOME/.gitgood/update:$PATH"`
 
 # TADA!
 You can now use Git Good to add to your commit messages!
