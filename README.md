@@ -5,8 +5,8 @@ Add great emoji's to your commit messages
 To install this great repo and use it for regular and day to day goodness just run:  
 `git clone https://github.com/srepollock/git-good ~/.gitgood`  
 `git config --global alias.good '!sh ~/.gitgood/gitgood.sh`  
-`chmod a+x ~/.gitgood/install.sh`
-`~/.gitgood/install.sh`
+`chmod a+x ~/.gitgood/install.sh`  
+`~/.gitgood/install.sh`  
 > Execute permissions for the install.sh file
 
 # TADA!
