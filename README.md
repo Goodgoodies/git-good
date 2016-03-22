@@ -2,19 +2,19 @@
 Add great emoji's to your commit messages
 
 # Install
-To install this great repo and use it for regular and day to day goodness just run:
-     git clone https://github.com/srepollock/git-good ~/.gitgood
-     git config --gloabl alias.good '!sh ~/.gitgood/gitgood.sh
+To install this great repo and use it for regular and day to day goodness just run:  
+`git clone https://github.com/srepollock/git-good ~/.gitgood`  
+`git config --gloabl alias.good '!sh ~/.gitgood/gitgood.sh`  
 
 # TADA!
 You can now use Git Good to add to your commit messages!
 
 # Usage
-To use Git Good is very simple. Just use:
-     git good [emoji option] [commit message]
+To use Git Good is very simple. Just use:  
+`git good [emoji option] [commit message]`  
     
-For help at any time just call
-     git good --goodhelp
+For help at any time just call  
+`git good --goodhelp`  
 
 # Why?
 Why not? Thought this would be a fun little project to add to git, and it's something that just creates a live repository to show off!
