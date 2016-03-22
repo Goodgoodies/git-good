@@ -5,7 +5,7 @@ goodhelp() {
 	echo "Usage: git good [option] <msg>"
 	echo "[options]"
 	echo " -h or --happy        | -s or --sad"
-    echo " -b or --beer          | -a or --angry"
+    echo " -b or --beer         | -a or --angry"
 	echo " -m or --money        | -sm or --smile"
 	echo " -l or --laugh        | -y or --yum"
 	echo " -rlx or --relaxed    | -rlv or --relieve"
