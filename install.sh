@@ -5,7 +5,7 @@ comment="# Git Good Update Export"
 case "$OSTYPE" in
     darwin*) output="export PATH=\"\$HOME/.gitgood/update:\$PATH\"" ;; # OS X
     linux*) output="export PATH=\"\$HOME/.gitgood/update:\$PATH\"" ;; # LINUX
-    msys*) output="export PATH=\"\$HOME\\.gitgood\\update:\$PATH\"" ;; # WINDOWS
+    msys*) output="export PATH=\"\$HOME/.gitgood/update:\$PATH\"" ;; # WINDOWS
     *) return ;;
 esac
 
