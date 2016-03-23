@@ -21,3 +21,4 @@ if grep -Fxq "$comment" ~/.bashrc && grep -Fxq "$output" ~/.bashrc
         echo $output >> ~/.bashrc
     fi
 bash -c "chmod a+x ~/.gitgood/update/git_good_updates.sh"
+git config --global alias.good '!sh ~/.gitgood/gitgood.sh'
