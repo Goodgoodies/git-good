@@ -2,7 +2,6 @@ language: bash
 
 before_script:
     - curl -L "http://downloads.sourceforge.net/shunit2/shunit2-2.1.3.tgz" | tar zx
-    - bash make_file_travis.sh
     - bash install.sh
 
 script:
