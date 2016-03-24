@@ -1,7 +1,7 @@
 #!/bin/sh
 
 find_lines(){
-    coment="# Git Good Update Export"
+    comment="# Git Good Update Export"
     case "$OSTYPE" in
         darwin*) output="export PATH=\"\$HOME/.gitgood/update:\$PATH\"" ;; # OS X
         linux*) output="export PATH=\"\$HOME/.gitgood/update:\$PATH\"" ;; # LINUX
