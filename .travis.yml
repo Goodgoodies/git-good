@@ -6,6 +6,7 @@ before_script:
 install: ./install.sh
 
 script:
+    - bash make_file_travis.sh
     - bash test_install.sh
 
 # whitelist
