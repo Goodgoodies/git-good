@@ -1,10 +1,5 @@
 #!/bin/sh
 
-run_install(){
-    . chmod a+x ./install.sh
-    . ./install.sh # Install the repo
-}
-
 find_lines(){
     coment="# Git Good Update Export"
     case "$OSTYPE" in
@@ -23,7 +18,6 @@ find_lines(){
 }
 
 test_install(){
-    run_install
     result=`find_lines`
     assertEquals \
         "Test install worked" \
