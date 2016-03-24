@@ -1,7 +1,7 @@
 #!/bin/sh
 
 run_install(){
-    . chmod a+x ./install
+    . chmod a+x ./install.sh
     . ./install.sh # Install the repo
 }
 
