@@ -5,14 +5,6 @@ run_install(){
     . ./install.sh # Install the repo
 }
 
-coment="# Git Good Update Export"
-case "$OSTYPE" in
-    darwin*) output="export PATH=\"\$HOME/.gitgood/update:\$PATH\"" ;; # OS X
-    linux*) output="export PATH=\"\$HOME/.gitgood/update:\$PATH\"" ;; # LINUX
-    msys*) output="export PATH=\"\$HOME/.gitgood/update:\$PATH\"" ;; # WINDOWS
-    *) return ;;
-esac
-
 find_lines(){
     coment="# Git Good Update Export"
     case "$OSTYPE" in
@@ -31,6 +23,7 @@ find_lines(){
 }
 
 test_install(){
+    run_install
     result=`find_lines`
     assertEquals \
         "Test install worked" \
