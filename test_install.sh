@@ -21,7 +21,7 @@ test_install(){
     result=`find_lines`
     assertEquals \
         "Test install worked" \
-        0 $result
+        0 "${result}"
     # [messege]  \ 
     # expected actual
 }
