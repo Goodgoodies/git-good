@@ -14,6 +14,14 @@ case "$OSTYPE" in
 esac
 
 find_lines(){
+    coment="# Git Good Update Export"
+    case "$OSTYPE" in
+        darwin*) output="export PATH=\"\$HOME/.gitgood/update:\$PATH\"" ;; # OS X
+        linux*) output="export PATH=\"\$HOME/.gitgood/update:\$PATH\"" ;; # LINUX
+        msys*) output="export PATH=\"\$HOME/.gitgood/update:\$PATH\"" ;; # WINDOWS
+        *) return ;;
+    esac
+
     if grep -Fxq "$comment" ~/.bashrc && grep -Fxq "$output" ~/.bashrc
     then
         return 0;
