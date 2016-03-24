@@ -11,9 +11,9 @@ find_lines(){
 
     if grep -Fxq "$comment" ~/.bashrc && grep -Fxq "$output" ~/.bashrc
     then
-        return 0;
+        echo 0 
     else
-        return 1;
+        echo 1;
     fi
 }
 
