@@ -1,5 +1,8 @@
 # Git Good
-Add great emoji's to your commit messages [![Build Status](https://travis-ci.org/srepollock/git-good.svg?branch=master)](https://travis-ci.org/srepollock/git-good)
+Add great emoji's to your commit messages  
+> Master: [![Build Status](https://travis-ci.org/srepollock/git-good.svg?branch=master)](https://travis-ci.org/srepollock/git-good)  
+> Develop: [![Build Status](https://travis-ci.org/srepollock/git-good.svg?branch=develop)](https://travis-ci.org/srepollock/git-good)
+
 
 # Install
 To install this great repo and use it for regular and day to day goodness just run:  

@@ -1,24 +1,19 @@
 #!/bin/sh
 
-run_install(){
-    . chmod a+x ./install
-    . ./install.sh # Install the repo
-}
-
-coment="# Git Good Update Export"
-case "$OSTYPE" in
-    darwin*) output="export PATH=\"\$HOME/.gitgood/update:\$PATH\"" ;; # OS X
-    linux*) output="export PATH=\"\$HOME/.gitgood/update:\$PATH\"" ;; # LINUX
-    msys*) output="export PATH=\"\$HOME/.gitgood/update:\$PATH\"" ;; # WINDOWS
-    *) return ;;
-esac
-
 find_lines(){
+    comment="# Git Good Update Export"
+    case "$OSTYPE" in
+        darwin*) output="export PATH=\"\$HOME/.gitgood/update:\$PATH\"" ;; # OS X
+        linux*) output="export PATH=\"\$HOME/.gitgood/update:\$PATH\"" ;; # LINUX
+        msys*) output="export PATH=\"\$HOME/.gitgood/update:\$PATH\"" ;; # WINDOWS
+        *) return ;;
+    esac
+
     if grep -Fxq "$comment" ~/.bashrc && grep -Fxq "$output" ~/.bashrc
     then
-        return 0;
+        echo 0 
     else
-        return 1;
+        echo 1;
     fi
 }
 
