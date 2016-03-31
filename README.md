@@ -1,7 +1,7 @@
 # Git Good
 Add great emoji's to your commit messages  
-> Master: [![Build Status](https://travis-ci.org/srepollock/git-good.svg?branch=master)](https://travis-ci.org/srepollock/git-good)  
-> Develop: [![Build Status](https://travis-ci.org/srepollock/git-good.svg?branch=develop)](https://travis-ci.org/srepollock/git-good)
+> Master: [![Build Status](https://travis-ci.org/Goodgoodies/git-good.svg?branch=master)](https://travis-ci.org/Goodgoodies/git-good)
+> Develop: [![Build Status](https://travis-ci.org/Goodgoodies/git-good.svg?branch=develop)](https://travis-ci.org/Goodgoodies/git-good)
 
 
 # Install
