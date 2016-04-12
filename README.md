@@ -23,6 +23,9 @@ For help at any time just call
 # Why?
 Why not? Thought this would be a fun little project to add to git, and it's something that just creates a live repository to show off!
 
+# Any good memes?
+http://i.imgur.com/jJY5PHM.jpg?1
+
 # Help
 For any help, check out the [wiki](https://github.com/srepollock/git-good/wiki) for FAQ and problems.
 If there is a larger issue, please feel free to leave an [issue](https://github.com/srepollock/git-good/issues) or better yet, fix it yourself and make a pull request! I'm more than happy to add onto this project if you feel the need to!
