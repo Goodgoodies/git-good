@@ -19,6 +19,7 @@ goodhelp() {
     echo " -1                   | +1"
     echo " -sh or --shit        | -run or --running"
     echo " -tr or --troll       | -sk or --skull"
+    echo " -pa or --panda       | -oct or --octocat" 
     echo " --goodhelp") 1>&2
 }
 
@@ -207,6 +208,18 @@ skull() {
     git commit -m "${message}"
 }
 
+panda() {
+    shift 1
+    message=":panda_face: $@"
+    git commit -m "${message}"
+}
+
+octocat() {
+    shift 1
+    message=":octocat: $@"
+    git commit -m "${message}"
+}
+
 if [ $# -le 0 ]; then
     echo "Incorrect arguments"
     goodhelp
@@ -307,6 +320,12 @@ while [ $# -gt 0 ]; do
             exit 0;;
         -sk|--skull)
             skull "$@"
+            exit 0;;
+        -pa|--panda)
+            panda "$@"
+            exit 0;;
+        -oct|--octocat)
+            octocat "$@"
             exit 0;;
         *)
             goodhelp 
